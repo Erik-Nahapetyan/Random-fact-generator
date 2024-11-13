@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hy">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Պատահական փաստերի գեներատոր</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Պատահական փաստերի գեներատոր</h1>
+        <select id="category">
+            <option value="all">Բոլոր կատեգորիաները</option>
+            <option value="Science">Գիտություն</option>
+            <option value="History">Պատմություն</option>
+            <option value="Culture">Մշակույթ</option>
+            <option value="Nature">Բնություն</option>
+            <option value="Space">Տիեզերք</option>
+            <option value="Animals">Կենդանիներ</option>
+            <option value="Sports">Սպորտ</option>
+            <option value="Technology">Տեխնոլոգիա</option>
+            <option value="Geography">Աշխարհագրություն</option>
+            <option value="Food">Սնունդ</option>
+        </select>
+        <button onclick="generateFact()" id="generate">Ստեղծեք փաստ</button>
+        <button onclick="clearFact()" id="clear">Մաքրել</button>
+
+        <div id="fact" class="fact"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
